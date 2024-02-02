@@ -6,7 +6,7 @@ const generateBotChoice = () => {
 
 const drawGame = () => {
     console.log("It's a draw, play again!");
-    msg.innerText = "It's a draw, play again!";
+    msg.innerText = "Game was draw, play again!";
     msg.style.backgroundColor = "#081b31";
 }
 
@@ -14,7 +14,7 @@ const showResult = (userWin,userChoice,botChoice) => {
       //showResult
       if (userWin === true) {
         //local variable 'output', it's scope is within {}
-        const output = `Congratulations You Won !!!Your ${userChoice} beats bot's ${botChoice}`;
+        const output = `Congratulations You Won! Your ${userChoice} beat bot's ${botChoice}`;
         userScore += 1;
         console.log(output + ":", userScore);
         userScoreQuery.innerText = userScore;
@@ -23,7 +23,7 @@ const showResult = (userWin,userChoice,botChoice) => {
     } 
     else {
         //this 'output' is also a local variable, it's scope is within {}
-        const output = `Opps you lost!!!Bot's ${botChoice} beats your ${userChoice}`;
+        const output = `Opps you lost! Bot's ${botChoice} beat your ${userChoice}`;
         botScore += 1;
         console.log(output + ":", botScore);
         botScoreQuery.innerText = botScore;
