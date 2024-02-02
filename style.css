@@ -7,8 +7,8 @@
 h1 {
   background-color: #022b5a;
   color: #fff;
-  height: 5rem;
-  line-height: 5rem;
+  height: 4rem;
+  line-height: 4rem;
 }
 
 .choice {
@@ -22,12 +22,14 @@ h1 {
 
 .choice:hover {
   cursor: pointer;
-  background-color: #081b31;
+  /*background-color: #081b31;*/
+  color: green;
+  font-size: 300%;
 }
 
 img {
-  height: 150px;
-  width: 150px;
+  height: 155px;
+  width: 155px;
   object-fit: cover;
   border-radius: 50%;
 }
@@ -37,7 +39,7 @@ img {
   justify-content: center;
   align-items: center;
   gap: 3rem;
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 
 .score-board {
@@ -55,14 +57,22 @@ img {
 }
 
 .msg-container {
-  margin-top: 5rem;
+  margin-top: 4rem;
 }
 
 #msg {
   background-color: #081b31;
   color: #fff;
-  font-size: 2rem;
+  font-size: 1.5rem;
   display: inline;
   padding: 1rem;
   border-radius: 1rem;
+}
+footer {
+  margin-top: 4rem;
+  text-align: center;
+  background-color: #022b5a;
+  color: #fff;
+  height: 3rem;
+  line-height: 3rem;
 }
