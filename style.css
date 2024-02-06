@@ -7,8 +7,9 @@
 h1 {
   background-color: #022b5a;
   color: #fff;
-  height: 4rem;
-  line-height: 4rem;
+  height: 5rem;
+  line-height: 5rem;
+  font-size: 3rem;
 }
 
 .choice {
@@ -68,11 +69,11 @@ img {
   padding: 1rem;
   border-radius: 1rem;
 }
-footer {
+/* footer {
   margin-top: 4rem;
   text-align: center;
-  background-color: #022b5a;
+  background-color: #000d1c;
   color: #fff;
   height: 3rem;
   line-height: 3rem;
-}
+} */
