@@ -7,45 +7,47 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Rock Paper Scissors</h1>
-    <div class="choices">
-      <div class="choice" id="rock">
-        <figure>
-          <img src="./images/rock.jpg" />
-          <figcaption>Rock</figcaption>
-        </figure>       
+    <div class="container">
+      <h1>Rock Paper Scissors</h1>
+      <div class="choices">
+        <div class="choice" id="rock">
+          <figure>
+            <img src="./images/rock.jpg" />
+            <figcaption>Rock</figcaption>
+          </figure>       
+        </div>
+        <div class="choice" id="paper">
+          <figure>
+            <img src="./images/paper.jpg" />
+            <figcaption>Paper</figcaption>
+          </figure>
+        </div>
+        <div class="choice" id="scissors">
+          <figure>
+            <img src="./images/scissors.png" />
+            <figcaption>Scissors</figcaption>
+          </figure>
+        </div>
       </div>
-      <div class="choice" id="paper">
-        <figure>
-          <img src="./images/paper.jpg" />
-          <figcaption>Paper</figcaption>
-        </figure>
-      </div>
-      <div class="choice" id="scissors">
-        <figure>
-          <img src="./images/scissors.png" />
-          <figcaption>Scissors</figcaption>
-        </figure>
-      </div>
-    </div>
 
-    <div class="score-board">
-      <div class="score">
-        <p id="user-score">0</p>
-        <p>You</p>
+      <div class="score-board">
+        <div class="score">
+          <p id="user-score">0</p>
+          <p>You</p>
+        </div>
+        <div class="score">
+          <p id="bot-score">0</p>
+          <p>Bot</p>
+        </div>
       </div>
-      <div class="score">
-        <p id="bot-score">0</p>
-        <p>Bot</p>
-      </div>
-    </div>
 
-    <div class="msg-container">
-      <p id="msg">Choose your move from above three options</p>
+      <div class="msg-container">
+        <p id="msg">Choose your move from above three options</p>
+      </div>
+      <footer>
+        <p>~ developed by Kangkan</p>
+      </footer>
     </div>
-    <!-- <footer>
-      <p>~ developed by Kangkan</p>
-    </footer> -->
     <script src="app.js"></script>
   </body>
 </html>

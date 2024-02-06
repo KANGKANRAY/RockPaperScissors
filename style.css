@@ -3,6 +3,23 @@
   padding: 0;
   text-align: center;
 }
+body {
+  justify-content: center;
+  align-items:center;
+  background-color:#f4e4ba;
+}
+.container {
+  /* margin-top: 3rem; */
+  margin: auto;
+  width: 50%;
+  border: 3px solid burlywood;
+  padding: 10px;
+  background-color:#fff;
+  padding: 2rem;
+  border-radius: 1rem;
+  min-height: 30vh;
+  width: 100vh;
+}
 
 h1 {
   background-color: #022b5a;
@@ -69,11 +86,11 @@ img {
   padding: 1rem;
   border-radius: 1rem;
 }
-/* footer {
+footer {
   margin-top: 4rem;
   text-align: center;
   background-color: #000d1c;
   color: #fff;
   height: 3rem;
   line-height: 3rem;
-} */
+}
